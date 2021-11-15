@@ -21,6 +21,7 @@
 	border-bottom: 3px solid #2cdd9b;
 }
 
+/*
 .static-slider3 .text-success-gradiant {
 	  background: #2cdd9b;
     background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
@@ -56,6 +57,7 @@
     padding: 15px 45px;
     font-size: 16px;
 }
+*/
 
 @media (max-width:767px) {
 	.static-slider3 .title{
