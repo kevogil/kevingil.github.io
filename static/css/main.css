@@ -135,7 +135,7 @@
 .cc-profile-image a:before {
     content: "";
     /* background color */
-    border: 15px solid rgba(42, 220, 226, 0.6);
+    border: 15px solid #007bff;
     border-radius: 50%;
     height: 180px;
     width: 180px;
