@@ -14,17 +14,19 @@
     font-size: 3.5em;
 }
 
+/*
 .static-slider3 h2 {
     color: #3e4555;
     font-weight: 200;
     margin: 0.4em 0;
     font-size: 2em;
 }
+*/
 
 .static-slider3 .title {
-    font-weight: 300;
+    font-weight: 200;
     line-height: 50px;
-    font-size: 3.5em;
+    font-size: 2em;
 }
 
 .static-slider3 .title span {
