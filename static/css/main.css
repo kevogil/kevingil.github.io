@@ -1,7 +1,7 @@
 /* ----- Banner ----- */
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 .static-slider3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 	color: #8d97ad;
   font-weight: 300;
 	padding: 10% 0;
@@ -63,3 +63,4 @@
 		font-size: 24px;
 	}
 }
+/* ----- Banner end ----- */

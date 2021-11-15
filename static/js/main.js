@@ -55,3 +55,4 @@ window.onload = function() {
 	css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid transparent}";
 	document.body.appendChild(css);
 };
+// ----- Banner end -----
