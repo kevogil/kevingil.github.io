@@ -32,43 +32,14 @@
   /* border-bottom: 3px solid #000000; */
 }
 
-/*
-.static-slider3 .text-success-gradiant {
-	  background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-}
-
-.static-slider3 .btn-success-gradiant {
-		background: #2cdd9b;
-    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-}
-
-.static-slider3 .btn-success-gradiant:hover {
-		background: #1dc8cc;
-    background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #2cdd9b 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#2cdd9b));
-    background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);	
-}
-
-.static-slider3 .btn-md {
-    padding: 15px 45px;
-    font-size: 16px;
-}
-*/
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 @media (max-width:767px) {
 	.static-slider3 .title{
