@@ -52,7 +52,7 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #666}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #3e4555}";
   document.body.appendChild(css);
 };
 // ----- Banner end -----
