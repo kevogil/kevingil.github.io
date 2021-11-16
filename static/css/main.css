@@ -20,25 +20,11 @@ body, html {
     font-size: 3.5em;
 }
 
-.static-slider3 .title::before {
+.static-slider3 .title {
     line-height: 50px;
     font-size: 3em;
     font-weight: 200;
     text-align: center;
-    animation: cursorBlink 0.8s steps(3) infinite;
-}
-
-@keyframes cursorBlink {
-
-    0%,
-    75% {
-        opacity: 1
-    }
-
-    76%,
-    100% {
-        opacity: 0
-    }
 }
 
 .static-slider3 .title span {
