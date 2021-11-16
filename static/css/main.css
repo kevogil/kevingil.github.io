@@ -2,7 +2,9 @@ body, html {
     height: 100%;
 }
 
-/* ----- Banner ----- */
+/* ------------------ */
+/*       Banner       */
+/* ------------------ */
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 .static-slider3 {
     font-family: "Raleway", sans-serif;
@@ -41,16 +43,6 @@ body, html {
     max-width: 880px;
 }
 
-@media (max-width:767px) {
-	.static-slider3 .title{
-		line-height: 30px;
-		font-size: 24px;
-        font-weight: 400;
-	}
-}
-
-
-/* Hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url('../images/background.jpeg');
@@ -64,5 +56,25 @@ body, html {
     background-size: cover;
     position: relative;
     opacity: 0.6;
+}
 
+@media (max-width:767px) {
+	.static-slider3 .title{
+		line-height: 30px;
+		font-size: 24px;
+        font-weight: 400;
+	}
+}
+
+
+/* ------------------ */
+/*       Buttons      */
+/* ------------------ */
+.button-container {
+    text-align: center;
+    margin-top: -106px;
+}
+
+.button-container .btn-default {
+    margin-right: 8px;
 }
