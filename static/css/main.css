@@ -11,7 +11,6 @@ body, html {
     padding: 3em 2em;
     top: 50%;
     left: 50%;
-    display: table-cell; vertical-align: middle;
 }
 
 .static-slider3 h1 {
@@ -25,12 +24,17 @@ body, html {
     line-height: 50px;
     font-size: 3em;
     font-weight: 200;
-    vertical-align: middle;
 }
 
 .static-slider3 .title span {
     /* Attributes for scrolling text */
     /* border-bottom: 3px solid #000000; */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 @media (max-width:767px) {
@@ -40,6 +44,7 @@ body, html {
         font-weight: 400;
 	}
 }
+
 
 /* Hero image */
 .hero-image {
