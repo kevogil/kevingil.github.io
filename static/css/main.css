@@ -20,23 +20,9 @@ body, html {
     font-size: 3.5em;
 }
 
-.static-slider3 h2 {
-    color: #dedfe0;
-    font-weight: 200;
-    margin: 0.4em 0;
-    font-size: 3em;
-}
-
-.static-slider3 .h1title {
-    line-height: 50px;
-    font-size: 3.5em;
-    font-weight: 200;
-}
-
-.static-slider3 .h2title {
+.static-slider3 .title {
     line-height: 50px;
     font-size: 3em;
-    font-weight: 200;
 }
 
 .static-slider3 .h2title span {
@@ -51,16 +37,10 @@ body, html {
 }
 
 @media (max-width:767px) {
-	.static-slider3 .h1title{
-		line-height: 50px;
-		font-size: 3.5em;
-        font-weight: 200;
-	}
-
-    .static-slider3 .h2title{
+	.static-slider3 .title{
 		line-height: 30px;
 		font-size: 24px;
-        font-weight: 400;
+        font-weight: 600;
 	}
 }
 
