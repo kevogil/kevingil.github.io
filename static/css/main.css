@@ -24,6 +24,7 @@ body, html {
     line-height: 50px;
     font-size: 3em;
     font-weight: 200;
+    text-align: center;
 }
 
 .static-slider3 .title span {
