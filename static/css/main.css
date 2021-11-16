@@ -68,13 +68,113 @@ body, html {
 
 
 /* ------------------ */
-/*       Buttons      */
+/*       Contact      */
 /* ------------------ */
-.button-container {
-    text-align: center;
-    margin-top: -106px;
+.contact{
+    padding-bottom: 80px;
+}
+.contact h2{
+    margin-top: -18px;
+    margin-bottom: 80px;
+}
+.contact p span{
+    font-size: 30px;
 }
 
-.button-container .btn-default {
-    margin-right: 8px;
+.contact .speechBubble{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 0 auto 76px;
+    border: 5px solid #FFF;
+    top: 0px;
+    opacity: 1;
+}
+.contact .speechBubble:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 63px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 41px solid #FFF;
+    transform: rotate(10deg) ;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+}
+
+.contact .speechBubble span{
+    padding: 30px 0;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    color: #01a2a6;
+}
+.contact .speechBubble strong{
+    font-size: 30px;
+}
+
+.contact-supratitle {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 65px;
+}
+.contact .name-and-mail:after{
+    content: "";
+    border-bottom: 4px solid #FFF;
+    width: 50px;
+    display: block;
+    margin: 30px auto 30px;
+}
+.contact img#stormtrooper{
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    max-height: 100%;
+    z-index: -2;
+}
+.social-icons a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    margin: 5px;
+    padding: 0;
+}
+.social-icons a svg{
+    fill: white;
+    vertical-align: bottom;
+    display: inline-block;
+    -moz-transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -o-transform: scale(.7);
+    -ms-transform: scale(.7);
+    transform: scale(.7);
+
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.social-icons a:hover svg{
+    fill: #01a2a6;
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+}
+
+
+
+
+.me-turquoise{
+    background: #01a2a6
 }
