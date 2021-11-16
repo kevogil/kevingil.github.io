@@ -74,6 +74,10 @@ body, html {
     background: #01a2a6
 }
 
+.me-white-bg{ 
+    background: #FFF 
+}
+
 .contact{
     padding-bottom: 80px;
 }
@@ -176,4 +180,22 @@ body, html {
     transform: scale(.8);
 }
 
-.me-white-bg{ background: #FFF }
+/* text */
+.me-white-text{ color: #FFF }
+.me-text-center{ text-align: center }
+.me-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* ----------------- */
+/*       Footer      */
+/* ----------------- */
+.footer {
+    padding: 40px 0 80px;
+}
