@@ -51,7 +51,7 @@ body, html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url('../images/background.jpeg');
 
     /* Set a specific height */
-    height: 55%;
+    height: 60%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
