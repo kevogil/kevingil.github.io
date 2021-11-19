@@ -220,11 +220,11 @@ body, html {
     border-color: #01a2a6;
 }
 
-.no-svg .me-transparent-btn.facebook{
-    background: url(../images/icons/facebook.png) 0 0 no-repeat;
+.no-svg .me-transparent-btn.github{
+    background: url(../images/icons/github.png) 0 0 no-repeat;
 }
-.no-svg .me-transparent-btn.facebook:hover{
-    background: #ffffff url(../images/icons/facebook-hover.png) 0 0 no-repeat;
+.no-svg .me-transparent-btn.github:hover{
+    background: #ffffff url(../images/icons/github-hover.png) 0 0 no-repeat;
 }
 .no-svg .me-transparent-btn.linkedin{
     background: url(../images/icons/linkedin.png) 0 0 no-repeat;
