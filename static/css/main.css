@@ -194,42 +194,133 @@ body, html {
     user-select: none;
 }
 
-/* Animations: */
-/* - Rotation */
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/* Buttons */
+.me-transparent-btn{
+    font-size: 14px;
+    cursor: pointer;
+    padding: 13px 30px;
+    display: inline-block;
+    margin: 15px 5px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+.me-transparent-btn.black{
+    color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+.me-transparent-btn.turquoise{
+    color: #01a2a6;
+    border-color: #01a2a6;
+}
 
-/* fade in/out */
-.animation-fade{
+.no-svg .me-transparent-btn.facebook{
+    background: url(../images/icons/facebook.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.facebook:hover{
+    background: #ffffff url(../images/icons/facebook-hover.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.linkedin{
+    background: url(../images/icons/linkedin.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.linkedin:hover{
+    background: #ffffff url(../images/icons/linkedin-hover.png) 0 0 no-repeat;
+}
+
+.no-transform .me-transparent-btn:after {
+    display: none;
+    top: 0;
+    left: 0;
+}
+.me-transparent-btn.black:after{
+    background: #1f1f1f;
+}
+.me-transparent-btn.turquoise:after{
+    background: #01a2a6;
+}
+.me-transparent-btn.turquoise:hover,
+.me-transparent-btn.black:hover{
+    color: #ffffff;
+}
+
+.me-transparent-btn.black.grayhover:hover{
+    color: #d0c7cc
+}
+.me-transparent-btn:after {
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
     opacity: 0;
-    -webkit-transition: opacity 1s ease;
-    -moz-transition: opacity 1s ease;
-    -ms-transition: opacity 1s ease;
-    -o-transition: opacity 1s ease;
-    transition: opacity 1s ease;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
-.animation-fade.animate{
-    opacity: 1
+.me-transparent-btn span{
+    position: relative;
+    z-index: 2;
 }
-
-/* animate from right */
-.animation-from-right{
-    right: -100%;
-    -webkit-transition: right 300ms ease;
-    -moz-transition: right 300ms ease;
-    -ms-transition: right 300ms ease;
-    -o-transition: right 300ms ease;
-    transition: right 300ms ease;
-    /* hardware accelerate */
-    -webkit-transform: translate3d(0, 0, 0);
-    transform        : translate3d(0, 0, 0);
+.me-transparent-btn:hover{
+    color: #000000;
 }
-.animation-from-right.animate{
-    right: 20px;
+.me-transparent-btn:hover:after {
+    width: 105%;
+    opacity: 1;
 }
 
+.me-carousel{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.me-carousel .me-carousel-wrapper{
+    position: relative;
+    left: 0;
+}
+.me-carousel .me-carousel-wrapper div{
+    float: left;
+    padding: 0 30px;
+}
 
+.me-carousel .feedback-controll{
+    position: absolute;
+    width: 100%;
+    z-index: 100000;
+    bottom: 0;
+    left: 0;
+}
+.me-carousel .feedback-controll .controll-wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.me-carousel .feedback-controll a{
+    float: right;
+    padding: 6px 8px;
+    margin: 0 4px;
+}
+.me-carousel .feedback-controll a.disabled{
+    opacity: 0.2;
+}
+.me-carousel .feedback-controll a:hover img{
+    fill: #FFFFFF;
+}
+.me-carousel .feedback-controll a img{
+    height: 16px;
+}
 
 /* ----------------- */
 /*       Footer      */
