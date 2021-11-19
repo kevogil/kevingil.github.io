@@ -194,6 +194,42 @@ body, html {
     user-select: none;
 }
 
+/* Animations: */
+/* - Rotation */
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* fade in/out */
+.animation-fade{
+    opacity: 0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+.animation-fade.animate{
+    opacity: 1
+}
+
+/* animate from right */
+.animation-from-right{
+    right: -100%;
+    -webkit-transition: right 300ms ease;
+    -moz-transition: right 300ms ease;
+    -ms-transition: right 300ms ease;
+    -o-transition: right 300ms ease;
+    transition: right 300ms ease;
+    /* hardware accelerate */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform        : translate3d(0, 0, 0);
+}
+.animation-from-right.animate{
+    right: 20px;
+}
+
+
 
 /* ----------------- */
 /*       Footer      */
