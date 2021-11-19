@@ -322,13 +322,6 @@ body, html {
     height: 16px;
 }
 
-/* ----------------- */
-/*       Footer      */
-/* ----------------- */
-.footer {
-    padding: 40px 0 80px;
-}
-
 
 /* ----------------- */
 /*      Projects     */
@@ -381,13 +374,4 @@ body, html {
 
 .bg-white {
     background-color: #FFFFFF !important;
-}
-
-
-.cc-experience .cc-experience-header {
-    padding-top: 60px;
-    padding-right: 0;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
 }
