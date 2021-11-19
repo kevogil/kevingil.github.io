@@ -352,3 +352,7 @@ body, html {
 .card .card-body {
     min-height: 100px;
 }
+
+.bg-primary {
+    background-color: #20b2aa !important;
+}
