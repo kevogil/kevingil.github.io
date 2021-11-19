@@ -221,16 +221,16 @@ body, html {
 }
 
 .no-svg .me-transparent-btn.github{
-    background: url(../images/icons/github.png) 0 0 no-repeat;
+    background: url(.static/images/icons/github.png) 0 0 no-repeat;
 }
 .no-svg .me-transparent-btn.github:hover{
-    background: #ffffff url(../images/icons/github-hover.png) 0 0 no-repeat;
+    background: #ffffff url(.static//images/icons/github-hover.png) 0 0 no-repeat;
 }
 .no-svg .me-transparent-btn.linkedin{
-    background: url(../images/icons/linkedin.png) 0 0 no-repeat;
+    background: url(.static/images/icons/linkedin.png) 0 0 no-repeat;
 }
 .no-svg .me-transparent-btn.linkedin:hover{
-    background: #ffffff url(../images/icons/linkedin-hover.png) 0 0 no-repeat;
+    background: #ffffff url(.static/images/icons/linkedin-hover.png) 0 0 no-repeat;
 }
 
 .no-transform .me-transparent-btn:after {
