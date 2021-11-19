@@ -353,9 +353,36 @@ body, html {
     min-height: 100px;
 }
 
+
+/* Main background */
+.bg-default {
+    background-color: #888 !important;
+}
+
 .bg-primary {
     background-color: #20b2aa !important;
 }
+
+.bg-info {
+    background-color: #2CA8FF !important;
+}
+
+.bg-success {
+    background-color: #20b2aa !important;
+}
+
+.bg-danger {
+    background-color: #FF3636 !important;
+}
+
+.bg-warning {
+    background-color: #FFB236 !important;
+}
+
+.bg-white {
+    background-color: #FFFFFF !important;
+}
+
 
 .cc-experience .cc-experience-header {
     padding-top: 60px;
