@@ -138,7 +138,8 @@ body, html {
     display: block;
     font-size: 22px;
     text-align: center;
-    color: #01a2a6;
+    color: #FFFFFF;
+    /* color: #01a2a6; */
 }
 .contact .speechBubble strong{
     font-size: 30px;
