@@ -6,6 +6,16 @@ body, html {
     padding-bottom: 0;
 }
 
+/* color */
+.me-lightblue-bg{ background: #60aae7 }
+.me-white-bg{ background: #FFF }
+.me-black-bg{ background: #232323 }
+.me-yellow-bg{ background: #fff199;}
+.me-orange-bg{ background: #ff8a2c}
+.me-darkgrey{ background: #1f1f1f;}
+.me-turquoise{ background: #01a2a6}
+
+
 /* ------------------ */
 /*       Banner       */
 /* ------------------ */
@@ -65,15 +75,6 @@ body, html {
 /* ------------------ */
 /*       Contact      */
 /* ------------------ */
-
-/* color */
-.me-lightblue-bg{ background: #60aae7 }
-.me-white-bg{ background: #FFF }
-.me-black-bg{ background: #232323 }
-.me-yellow-bg{ background: #fff199;}
-.me-orange-bg{ background: #ff8a2c}
-.me-darkgrey{ background: #1f1f1f;}
-.me-turquoise{ background: #01a2a6}
 
 /* absolute */
 .me-accelerate{
