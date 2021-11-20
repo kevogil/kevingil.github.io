@@ -774,3 +774,15 @@ body, html {
 
 
 
+
+
+
+
+
+ @media (max-width:767px) {
+	.static-slider3 .title{
+		line-height: 30px;
+		font-size: 24px;
+        font-weight: 400;
+	}
+}
