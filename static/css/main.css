@@ -87,10 +87,21 @@ body, html {
 .contact{
     padding-bottom: 80px;
 }
+
+.module{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 30px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
 .contact h2{
     margin-top: -18px;
     margin-bottom: 80px;
 }
+
 .contact p span{
     font-size: 30px;
 }
