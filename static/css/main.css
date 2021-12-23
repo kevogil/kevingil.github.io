@@ -132,8 +132,6 @@ h2{
     transform        : translate3d(0, 0, 0);
 }
 
-
-
 .contact{
     padding-bottom: 80px;
 }
@@ -412,8 +410,12 @@ h2{
 }
 
 
-
-
+/* ----------------- */
+/*      About Me     */
+/* ----------------- */
+.about-me{
+    padding-bottom: 80px;
+}
 
 
 
