@@ -1,3 +1,4 @@
+/* general */
 body, html {
     height: 100%;
 }
@@ -5,6 +6,51 @@ body, html {
 .section {
     padding-bottom: 0;
 }
+
+.subtitle, h2{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* background */
+.bg-default {
+    background-color: #888 !important;
+}
+
+.bg-primary {
+    background-color: #20b2aa !important;
+}
+
+.bg-info {
+    background-color: #2CA8FF !important;
+}
+
+.bg-success {
+    background-color: #20b2aa !important;
+}
+
+.bg-danger {
+    background-color: #FF3636 !important;
+}
+
+.bg-warning {
+    background-color: #FFB236 !important;
+}
+
+.bg-white {
+    background-color: #FFFFFF !important;
+}
+
 
 /* color */
 .me-lightblue-bg{ background: #60aae7 }
@@ -363,34 +409,7 @@ body, html {
 }
 
 
-/* Main background */
-.bg-default {
-    background-color: #888 !important;
-}
 
-.bg-primary {
-    background-color: #20b2aa !important;
-}
-
-.bg-info {
-    background-color: #2CA8FF !important;
-}
-
-.bg-success {
-    background-color: #20b2aa !important;
-}
-
-.bg-danger {
-    background-color: #FF3636 !important;
-}
-
-.bg-warning {
-    background-color: #FFB236 !important;
-}
-
-.bg-white {
-    background-color: #FFFFFF !important;
-}
 
 
 
@@ -694,6 +713,10 @@ body, html {
      right: 120%;
  } */
  
+
+/* --------------- */
+/*      Slider     */
+/* --------------- */
  .slider.slider-neutral .noUi-connect,
  .slider.slider-neutral.noUi-connect {
      background-color: #FFFFFF;
@@ -771,10 +794,6 @@ body, html {
  .slider.slider-danger .noUi-handle {
      background-color: #FF3636;
  }
-
-
-
-
 
 
 
