@@ -25,33 +25,13 @@ h2{
 
 
 /* background */
-.bg-default {
-    background-color: #888 !important;
-}
-
-.bg-primary {
-    background-color: #20b2aa !important;
-}
-
-.bg-info {
-    background-color: #2CA8FF !important;
-}
-
-.bg-success {
-    background-color: #20b2aa !important;
-}
-
-.bg-danger {
-    background-color: #FF3636 !important;
-}
-
-.bg-warning {
-    background-color: #FFB236 !important;
-}
-
-.bg-white {
-    background-color: #FFFFFF !important;
-}
+.bg-default {background-color: #888 !important;}
+.bg-primary {background-color: #20b2aa !important;}
+.bg-info {background-color: #2CA8FF !important;}
+.bg-success {background-color: #20b2aa !important;}
+.bg-danger {background-color: #FF3636 !important;}
+.bg-warning {background-color: #FFB236 !important;}
+.bg-white {background-color: #FFFFFF !important;}
 
 
 /* color */
@@ -426,6 +406,26 @@ h2{
 /* --------------------------- */
 .education-skills{
     padding-bottom: 65px;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+    min-height: 100px;
 }
 
 
