@@ -370,8 +370,20 @@ h2{
 
 
 /* ----------------- */
-/*      Projects     */
+/*      About Me     */
 /* ----------------- */
+.about-me{
+    padding-bottom: 65px;
+}
+
+
+/* --------------------------- */
+/*      Skills & Education     */
+/* --------------------------- */
+.skills-education{
+    padding-bottom: 65px;
+}
+
 .card {
     margin-bottom: 10px;
 }
@@ -394,20 +406,8 @@ h2{
 
 
 /* ----------------- */
-/*      About Me     */
+/*      Projects     */
 /* ----------------- */
-.about-me{
-    padding-bottom: 65px;
-}
-
-
-/* --------------------------- */
-/*      Skills & Education     */
-/* --------------------------- */
-.skills-education{
-    padding-bottom: 65px;
-}
-
 .card {
     margin-bottom: 10px;
 }
