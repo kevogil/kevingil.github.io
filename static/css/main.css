@@ -136,7 +136,8 @@ h2{
     border: 0;
     border-radius: 0.1875rem;
     display: inline-block;
-    position: relative;
+    position: absolute;
+    text-align: center;
     overflow: hidden;
     width: 100%;
     margin-bottom: 20px;
