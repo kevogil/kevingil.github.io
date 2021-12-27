@@ -128,8 +128,20 @@ h2{
     padding-bottom: 80px;
 }
 
-.card {
-    margin-bottom: 10px;
+.skills>.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.skills>.card .card-body {
+    min-height: 100px;
 }
 
 .compass{
@@ -186,11 +198,7 @@ h2{
     padding-bottom: 65px;
 }
 
-.card {
-    margin-bottom: 10px;
-}
-
-.card {
+.education>.card {
     border: 0;
     border-radius: 0.1875rem;
     display: inline-block;
@@ -202,7 +210,7 @@ h2{
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-.card .card-body {
+.education>.card .card-body {
     min-height: 100px;
 }
 
@@ -210,7 +218,7 @@ h2{
 /* ----------------- */
 /*      Projects     */
 /* ----------------- */
-.card {
+.project>.card {
     border: 0;
     border-radius: 0.1875rem;
     display: inline-block;
@@ -222,7 +230,7 @@ h2{
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-.card .card-body {
+.project>.card .card-body {
     min-height: 100px;
 }
 
