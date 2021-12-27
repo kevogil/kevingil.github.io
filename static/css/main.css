@@ -29,6 +29,16 @@ h2{
     margin-top: 15px;
 }
 
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
 
 /* background */
 .bg-primary {background-color: #4ABDAC;}
