@@ -132,7 +132,7 @@ h2{
     padding-bottom: 80px;
 }
 
-.skills>.card {
+.skills .card {
     border: 0;
     border-radius: 0.1875rem;
     display: inline-block;
@@ -143,7 +143,7 @@ h2{
     background-color: #ffffff00;
 }
 
-.skills>.card .card-body {
+.skills .card .card-body {
     min-height: 100px;
 }
 
