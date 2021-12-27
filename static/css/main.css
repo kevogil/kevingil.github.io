@@ -21,13 +21,7 @@ h2{
 
 
 /* background */
-.bg-default {background-color: #888 !important;}
-.bg-primary {background-color: #20b2aa !important;}
-.bg-info {background-color: #2CA8FF !important;}
-.bg-success {background-color: #20b2aa !important;}
-.bg-danger {background-color: #FF3636 !important;}
-.bg-warning {background-color: #FFB236 !important;}
-.bg-white {background-color: #FFFFFF !important;}
+.bg-primary {background-color: #4ABDAC !important;}
 
 
 /* color */
@@ -224,6 +218,14 @@ h2{
 
 .education .card .card-body {
     min-height: 100px;
+}
+
+.cc-education .cc-education-header {
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    align-content: center;
+    color: #fff;
 }
 
 
