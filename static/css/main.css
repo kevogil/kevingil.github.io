@@ -84,6 +84,7 @@ h2{
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 15px;
+    /* color: #FFFFFF; */
     width: 100%;
     max-width: 880px;
 }
@@ -147,7 +148,16 @@ h2{
 }
 
 .skills .container>.content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 15px;
     color: #ffffff00;
+    width: 100%;
+    max-width: 880px;
 }
 
 .compass{
@@ -218,10 +228,6 @@ h2{
 
 .education .card .card-body {
     min-height: 100px;
-}
-
-.cc-education .h5 {
-    margin-bottom: 0;
 }
 
 .cc-education .cc-education-header {
