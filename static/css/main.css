@@ -105,6 +105,12 @@ h2{
 /*      About Me     */
 /* ----------------- */
 .about-me{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 30px;
+    box-sizing: border-box;
+    z-index: 10;
     padding-bottom: 65px;
 }
 
