@@ -108,7 +108,6 @@ h2{
     position: relative;
     width: 100%;
     overflow-x: hidden;
-    /* padding: 0 30px; */
     box-sizing: border-box;
     z-index: 10;
     padding-top: 0 30px;
@@ -120,7 +119,13 @@ h2{
 /*      Skills     */
 /* --------------- */
 .skills{
-    padding-bottom: 80px;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-top: 0 30px;
+    padding-bottom: 45px;
 }
 
 .compass{
