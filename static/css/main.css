@@ -111,7 +111,7 @@ h2{
     box-sizing: border-box;
     z-index: 10;
     padding-top: 0 30px;
-    padding-bottom: 45px;
+    padding-bottom: 80px;
 }
 
 
@@ -125,7 +125,7 @@ h2{
     box-sizing: border-box;
     z-index: 10;
     padding-top: 0 30px;
-    padding-bottom: 45px;
+    padding-bottom: 80px;
 }
 
 .card {
@@ -183,7 +183,7 @@ h2{
     box-sizing: border-box;
     z-index: 10;
     padding-top: 0 30px;
-    padding-bottom: 45px;
+    padding-bottom: 80px;
 }
 
 .card {
@@ -210,10 +210,6 @@ h2{
 /* ----------------- */
 /*      Projects     */
 /* ----------------- */
-.card {
-    margin-bottom: 10px;
-}
-
 .card {
     border: 0;
     border-radius: 0.1875rem;
@@ -325,6 +321,12 @@ h2{
 }
 
 .contact{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-top: 0 30px;
     padding-bottom: 80px;
 }
 
