@@ -143,6 +143,19 @@ h2{
     min-height: 100px;
 }
 
+.skills .container>.content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 15px;
+    color: #ffffff00;
+    width: 100%;
+    max-width: 880px;
+}
+
 .compass{
     position: absolute;
     left: 50%;
