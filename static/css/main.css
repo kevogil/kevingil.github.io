@@ -128,6 +128,10 @@ h2{
     padding-bottom: 45px;
 }
 
+.card {
+    margin-bottom: 10px;
+}
+
 .compass{
     position: absolute;
     left: 50%;
@@ -173,7 +177,13 @@ h2{
 /*      Education     */
 /* ------------------ */
 .education{
-    padding-bottom: 65px;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-top: 0 30px;
+    padding-bottom: 45px;
 }
 
 .card {
