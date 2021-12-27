@@ -197,7 +197,7 @@ h2{
     padding-bottom: 65px;
 }
 
-.education>.card {
+.education .card {
     border: 0;
     border-radius: 0.1875rem;
     display: inline-block;
@@ -209,7 +209,7 @@ h2{
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-.education>.card .card-body {
+.education .card .card-body {
     min-height: 100px;
 }
 
