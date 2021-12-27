@@ -111,6 +111,7 @@ h2{
     padding: 0 30px;
     box-sizing: border-box;
     z-index: 10;
+    padding-top: 65px;
     padding-bottom: 65px;
 }
 
