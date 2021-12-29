@@ -241,12 +241,9 @@ figure figcaption {
 }
 
 .cc-education .cc-education-header {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
