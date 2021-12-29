@@ -241,8 +241,10 @@ figure figcaption {
 }
 
 .cc-education .cc-education-header {
-    justify-content: center;
-    align-items: center;
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    align-content: center;
     color: #fff;
 }
 
