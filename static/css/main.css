@@ -241,7 +241,6 @@ figure figcaption {
 }
 
 .cc-education .cc-education-header {
-    display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
