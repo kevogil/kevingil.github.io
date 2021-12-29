@@ -258,7 +258,7 @@ figure figcaption {
     border-radius: 0.1875rem;
     display: inline-block;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     height: 450px;
     width: 100%;
     margin-bottom: 20px;
