@@ -230,7 +230,7 @@ figure figcaption {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    height: 200px;
+    height: 100%;
     width: 100%;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
@@ -238,7 +238,7 @@ figure figcaption {
 }
 
 .education .card .card-body {
-    min-height: 100px;
+    min-height: 200px;
 }
 
 .cc-education .cc-education-header {
@@ -259,7 +259,7 @@ figure figcaption {
     display: inline-block;
     position: relative;
     overflow: visible;
-    height: 450px;
+    height: 100%;
     width: 100%;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
