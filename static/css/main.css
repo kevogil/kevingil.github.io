@@ -533,6 +533,18 @@ figure figcaption {
 .no-svg .me-transparent-btn.linkedin:hover{
     background: #ffffff url(.static/images/icons/linkedin-hover.png) 0 0 no-repeat;
 }
+.no-svg .me-transparent-btn.upwork{
+    background: url(.static/images/icons/upwork.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.upwork:hover{
+    background: #ffffff url(.static/images/icons/upwork-hover.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.fiverr{
+    background: url(.static/images/icons/fiverr.png) 0 0 no-repeat;
+}
+.no-svg .me-transparent-btn.fiverr:hover{
+    background: #ffffff url(.static/images/icons/fiverr-hover.png) 0 0 no-repeat;
+}
 
 .no-transform .me-transparent-btn:after {
     display: none;
