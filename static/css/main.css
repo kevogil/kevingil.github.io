@@ -129,13 +129,13 @@ figure figcaption {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: 0.6;
+
+    z-index: 10;
 
     /* position: relative;
     width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
-    z-index: 10;
     padding-top: 0 30px;
     padding-bottom: 70px; */
 }
