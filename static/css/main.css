@@ -118,7 +118,7 @@ figure figcaption {
 /*      About Me     */
 /* ----------------- */
 .about-me{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpeg');
+    background-image: url('./static/images/about_pic.jpg');
     position: relative;
     width: 100%;
     overflow-x: hidden;
