@@ -133,10 +133,9 @@ figure figcaption {
     z-index: 10;
     padding-top: 0 30px;
     padding-bottom: 70px;
-
-    /* width: 100%;
+    width: 100%;
     overflow-x: hidden;
-    box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 
