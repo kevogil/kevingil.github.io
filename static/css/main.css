@@ -122,13 +122,13 @@ figure figcaption {
     background-image: url('../images/about_pic.JPG');
 
     /* Set a specific height */
-    height: 4000px;
+    height: 2000px;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: 25% 75%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
+    position: relative;
 
     z-index: 10;
     padding-top: 0 30px;
