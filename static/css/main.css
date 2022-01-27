@@ -119,10 +119,10 @@ figure figcaption {
 /* ----------------- */
 .about-me{
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-    background-image: url('../images/about_pic.JPG');
+    background-image: url('../images/profile-1.JPG');
 
     /* Set a specific height */
-    height: 1000px;
+    height: 750px;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
