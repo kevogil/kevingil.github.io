@@ -54,7 +54,7 @@ figure figcaption {
 .me-lightgrey{ background: #DFDCE3;}
 .me-turquoise{ background: #4ABDAC}
 
-.me-white-text{ color: #FFF }
+.me-white-text{ color: rgb(255, 255, 255) }
 
 
 /* ------------------ */
