@@ -119,7 +119,7 @@ figure figcaption {
 /*      About Me     */
 /* ----------------- */
 .about-me{
-    background-image: url('../images/about-me-2-final.png');
+    background-image: url('../images/about-me-2-cropped.png');
 
     /* Set a specific height */
     height: 750px;
