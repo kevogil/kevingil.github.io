@@ -49,7 +49,7 @@ figure figcaption {
 .me-black-bg{ background: #232323 }
 .me-yellow-bg{ background: #F7B733;}
 .me-orange-bg{ background: #FC4A1A}
-.me-tan-bg{ background: #b7aa91}
+.me-tan-bg{ background: #988870}
 .me-darkgrey{ background: #1f1f1f;}
 .me-lightgrey{ background: #DFDCE3;}
 .me-turquoise{ background: #4ABDAC}
@@ -119,7 +119,6 @@ figure figcaption {
 /*      About Me     */
 /* ----------------- */
 .about-me{
-    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
     background-image: url('../images/about-me-2-cropped.png');
 
     /* Set a specific height */
